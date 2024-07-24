@@ -21,7 +21,9 @@ export const Hero = () => {
                 />
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-500 py-3'>Monitor your data analytics to increase revenue for BTB, & SASS platforms.</p>
-            <button className='bg-[#7979ff] w-200px rounded-md font-bold  my-10 py-3 text-white'>Get Started</button>
+           <div>
+           <button className='bg-[#7979ff] w-[150px]  rounded-md font-bold  my-10 py-3 text-white'>Get Started</button>
+           </div>
         </div>    
     </div>
   )
