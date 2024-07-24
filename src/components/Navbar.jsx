@@ -11,6 +11,8 @@ export const Navbar = ({page,setPage}) => {
 
     const changepage= (pageNumber)=>{
         setPage(pageNumber)
+        setNav(!nav)
+
     }
 
   return (
