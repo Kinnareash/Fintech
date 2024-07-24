@@ -15,7 +15,7 @@ export const Navbar = () => {
             <li className='p-4 hover:font-bold ease-in duration-200 hover:text-2xl h-12'>Company</li>
             <li className='p-4 hover:font-bold ease-in duration-200 hover:text-2xl h-12'>Stocks</li>
             <li className='p-4 hover:font-bold ease-in duration-200 hover:text-2xl h-12'>Portfolio</li>
-            <li className='p-4 hover:font-bold ease-in duration-200 hover:text-2xl h-12'>Contact Us</li>
+            <li className='p-4 hover:font-bold ease-in duration-200 hover:text-2xl h-12'>Contact</li>
         </ul>
         <div onClick = {handleNav} className='block md:hidden'>
             {nav ? <AiOutlineCloseCircle size={30}/> : <AiOutlineMenuUnfold size={30}/>}
